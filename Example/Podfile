@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'AFNetworking-BoltsSupport_Example', :exclusive => true do
+  pod "AFNetworking-BoltsSupport", :path => "../"
+end
+
+target 'AFNetworking-BoltsSupport_Tests', :exclusive => true do
+  pod "AFNetworking-BoltsSupport", :path => "../"
+end
