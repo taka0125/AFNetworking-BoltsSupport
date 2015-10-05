@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "AFNetworking-BoltsSupport"
-  s.version          = "1.0.0"
+  s.version          = "1.1.0"
   s.summary          = "Bolts support for AFNetworking."
   s.homepage         = "https://github.com/taka0125/AFNetworking-BoltsSupport"
   s.license          = 'MIT'

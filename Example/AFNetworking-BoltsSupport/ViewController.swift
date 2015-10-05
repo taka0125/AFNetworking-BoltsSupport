@@ -11,6 +11,12 @@ import AFNetworking
 import Bolts
 import AFNetworking_BoltsSupport
 
+extension ABS.Error {
+  static func parse(error: NSError?) -> ABS.ErrorResult? {
+    return parse(ABS.ErrorResult.self, error)
+  }
+}
+
 class ViewController: UIViewController {
   private lazy var manager: AFHTTPSessionManager = {
     let manager = AFHTTPSessionManager()
